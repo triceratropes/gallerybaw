@@ -1,0 +1,17 @@
+.loaded {
+    -webkit-filter: all;
+    -moz-filter: all;
+    filter: grayscale(100%);
+    filter: img;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .loaded:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: img;
+  }
+  /*.item.hovering .wrapper {
+    opacity: 0!important;
+  }*/
